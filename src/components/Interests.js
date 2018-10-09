@@ -19,8 +19,16 @@ const Interests = (props) => {
           MIT Pathway to Fusion Energy (IAP 2017) - Zach Hartwig
         </ListGroupItem>
 
+        <ListGroupItem tag="a" href="https://www.eff.org/files/2018/02/20/malicious_ai_report_final.pdf" target="_blank" action>
+          Malicious AI Report
+        </ListGroupItem>
+
         <ListGroupItem tag="a" href="https://bitcoin.org/bitcoin.pdf" target="_blank" action>
           Satoshi White Paper
+        </ListGroupItem>
+
+        <ListGroupItem tag="a" href="https://web.stanford.edu/~engler/BLOC-coverity.pdf" target="_blank" action>
+          Using Static Analysis to Find Bugs in the Real World
         </ListGroupItem>
 
       </ListGroup>
