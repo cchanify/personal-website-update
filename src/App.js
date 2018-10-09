@@ -11,7 +11,7 @@ import {
   NavLink } from 'reactstrap';
 
 import Projects from './components/Projects';
-//import About from './components/About';
+import Interests from './components/Interests';
 import Home from './components/Home';
 //import Footer from './components/Footer';
 
@@ -29,12 +29,16 @@ class App extends Component {
                 <NavItem>
                   <NavLink href="/projects">Projects</NavLink>
                 </NavItem>
+                <NavItem>
+                  <NavLink href="/Interests">Interests</NavLink>
+                </NavItem>
               </Nav>
           </Navbar>
 
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={Home}/>
           <Route path="/projects" component={Projects}/>
+          <Route path="/interests" component={Interests}/>
         </div>
       </Router>
     );
