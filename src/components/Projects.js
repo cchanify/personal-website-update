@@ -14,12 +14,12 @@ class Projects extends Component {
               <Button color="primary" target="_blank" href="https://endeavorapp.herokuapp.com/">Endeavor</Button>
             </Card>
           </Col>
-          
+
           <Col>
             <Card body outline color="secondary">
               <CardTitle>NASA Picture of the Day</CardTitle>
               <CardText>A small web application that utilizes a publicly available NASA API to display a different picture and description of our universe each day. Adapted for React from an online guide.</CardText>
-              <Button href="https://dashboard.heroku.com/apps/nasa-picoftheday" target="_blank" color="primary">The Universe</Button>
+              <Button href="https://nasa-picoftheday.herokuapp.com/" target="_blank" color="primary">The Universe</Button>
             </Card>
           </Col>
         </Row>
