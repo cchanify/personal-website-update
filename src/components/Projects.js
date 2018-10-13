@@ -18,7 +18,7 @@ class Projects extends Component {
           <Col>
             <Card body outline color="secondary">
               <CardTitle>NASA Picture of the Day</CardTitle>
-              <CardText>A small web application that utilizes a publicly available NASA API to display a different picture and description of our universe each day. Adapted for React from an online guide.</CardText>
+              <CardText>A small web application that utilizes a publicly available NASA API to display a different picture and description of our universe each day. Adapted for create-react-app from an online guide.</CardText>
               <Button href="https://nasa-picoftheday.herokuapp.com/" target="_blank" color="primary">The Universe</Button>
             </Card>
           </Col>
@@ -43,8 +43,23 @@ class Projects extends Component {
             </Card>
           </Col>
         </Row>
+        <CardText>   </CardText>
+        <Row>
+          <Col>
+            <Card body outline color="secondary">
+              <CardTitle>SpaceX Upcoming Launch</CardTitle>
+              <CardText>A web application made to display information about SpaceX flights, rockets, and launches. Utilizes React, CRA, reactstrap and the SpaceX API.</CardText>
+              <Button href="https://spacex-api1.herokuapp.com/" target="_blank" color="primary">SpaceX</Button>
+            </Card>
+          </Col>
+
+          <Col>
+
+          </Col>
+        </Row>
 
       </Container>
+
 
 
       // <Container>
