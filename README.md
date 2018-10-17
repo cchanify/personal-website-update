@@ -4,9 +4,8 @@ This site is designed to display relevant information about me and to display a 
 
 # TODO
 
-* Add image to front page -> use styled components
+* Use styled components
 
 * Lint code
-* Add footer w/ link to email/github/linkedin (also add icons)
 * Write up FreeBSD installation guide, publish on Github and link to site
 * Interview Prep problems / Data structures examples
