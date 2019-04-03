@@ -12,7 +12,7 @@ const Home = (props) => {
       <Container><Col><CardText></CardText><Row>
         <Jumbotron>
           <h1 className="display-3"><img height="200px" src={me} alt="me" /> Hello, world!</h1>
-          <p className="lead">My name is Connor. I'm a senior computer science major at Middlebury College. </p>
+          <p className="lead">My name is Connor. I'm a recent graduate of Middlebury College where I studied Computer Science and Political Philosophy. </p>
           {/* <p> <img height="200px" src={me} alt="me" /> </p> */}
           <hr className="my-2" />
           <p>During my four years at Middlebury I helped captain the <a href="http://sites.middlebury.edu/ultimate/2018/06/18/middlebury-guy-pranksters-2018-season-recap/" target="_blank">Men's Ultimate Frisbee Team</a>, participated in our computer science club, MiddleEndian, and tutored students taking Data Structures and Computer Architecutre.</p>
