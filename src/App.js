@@ -32,6 +32,9 @@ class App extends Component {
                 <NavItem>
                   <NavLink href="/Interests">Interests</NavLink>
                 </NavItem>
+                <NavItem>
+                  <NavLink href="/Thoughs">Thoughts</NavLink>
+                </NavItem>
               </Nav>
           </Navbar>
 
