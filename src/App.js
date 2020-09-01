@@ -13,6 +13,7 @@ import {
 import Projects from './components/Projects';
 import Interests from './components/Interests';
 import Home from './components/Home';
+import Thoughts from './components/Thoughts';
 //import Footer from './components/Footer';
 
 class App extends Component {
@@ -33,7 +34,10 @@ class App extends Component {
                   <NavLink href="/Interests">Interests</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/Thoughs">Thoughts</NavLink>
+                  <NavLink href="/Thoughts">Thoughts</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="https://airtable.com/shrrJDuLj2R9hINCt">Airtable</NavLink>
                 </NavItem>
               </Nav>
           </Navbar>
@@ -42,6 +46,8 @@ class App extends Component {
           <Route path="/about" component={Home}/>
           <Route path="/projects" component={Projects}/>
           <Route path="/interests" component={Interests}/>
+          <Route path="/Thoughts" component={Thoughts}/>
+          {/* <Route path="/Airtable" component={Airtable}/> */}
         </div>
       </Router>
     );
