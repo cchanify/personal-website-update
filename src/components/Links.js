@@ -1,7 +1,7 @@
 import React from 'react';
 import { ListGroup, ListGroupItem } from 'reactstrap';
 
-const Interests = (props) => {
+const Links = (props) => {
   return (
     <div>
       <p>   </p>
@@ -36,4 +36,4 @@ const Interests = (props) => {
   );
 };
 
-export default Interests;
+export default Links;

@@ -12,7 +12,7 @@ const Home = (props) => {
       <Container><Col><CardText></CardText><Row>
         <Jumbotron>
           <h1 className="display-3"><img height="200px" src={me} alt="me" /> Hello, world!</h1>
-          <p className="lead">My name is Connor. I work as a cyber security consultant at Stroz Friedberg, specializing in digital forensics and incident reponse (DFIR). </p>
+          <p className="lead">My name is Connor. I work as a cyber security consultant at Stroz Friedberg, specializing in digital forensics and incident reponse. </p>
           {/* <p> <img height="200px" src={me} alt="me" /> </p> */}
           <hr className="my-2" />
 

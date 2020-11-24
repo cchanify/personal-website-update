@@ -11,9 +11,10 @@ import {
   NavLink } from 'reactstrap';
 
 import Projects from './components/Projects';
-import Interests from './components/Interests';
+import Links from './components/Links';
 import Home from './components/Home';
-import Thoughts from './components/Thoughts';
+// import Thoughts from './components/Thoughts';
+import Books from './components/Books';
 //import Footer from './components/Footer';
 
 class App extends Component {
@@ -31,8 +32,11 @@ class App extends Component {
                   <NavLink href="/projects">Projects</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/Interests">Interests</NavLink>
+                  <NavLink href="/Links">Links</NavLink>
                 </NavItem>
+                {/* <NavItem>
+                  <NavLink href="/Books">Books</NavLink>
+                </NavItem> */}
                 {/* <NavItem>
                   <NavLink href="/Thoughts">Thoughts</NavLink>
                 </NavItem> */}
@@ -43,7 +47,8 @@ class App extends Component {
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={Home}/>
           <Route path="/projects" component={Projects}/>
-          <Route path="/interests" component={Interests}/>
+          <Route path="/links" component={Links}/>
+          {/* <Route path="/books" component={Books}/> */}
           {/* <Route path="/Thoughts" component={Thoughts}/> */}
         </div>
       </Router>
