@@ -33,12 +33,10 @@ class App extends Component {
                 <NavItem>
                   <NavLink href="/Interests">Interests</NavLink>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <NavLink href="/Thoughts">Thoughts</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="https://airtable.com/shrrJDuLj2R9hINCt">Airtable</NavLink>
-                </NavItem>
+                </NavItem> */}
+
               </Nav>
           </Navbar>
 
@@ -46,8 +44,7 @@ class App extends Component {
           <Route path="/about" component={Home}/>
           <Route path="/projects" component={Projects}/>
           <Route path="/interests" component={Interests}/>
-          <Route path="/Thoughts" component={Thoughts}/>
-          {/* <Route path="/Airtable" component={Airtable}/> */}
+          {/* <Route path="/Thoughts" component={Thoughts}/> */}
         </div>
       </Router>
     );
