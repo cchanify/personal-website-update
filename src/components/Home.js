@@ -16,7 +16,7 @@ const Home = (props) => {
           {/* <p> <img height="200px" src={me} alt="me" /> </p> */}
           <hr className="my-2" />
 
-          <p>Prior to this I participated in the firms security rotational program, granting exposure to security advisory services, penetration testing, and DFIR. I graduated from Middlebury College in 2019 with a Computer Science degree and Political Philosophy minor. During my four years at Middlebury I captained the <a href="http://sites.middlebury.edu/ultimate/2018/06/18/middlebury-guy-pranksters-2018-season-recap/" target="_blank">Men's Ultimate Frisbee Team</a>, participated in our computer science club, MiddleEndian, and tutored CS students.</p>
+          <p>Prior to this I participated in the firms security rotational program, granting exposure to a variety of security related disciplines, including security advisory services and penetration testing. I graduated from Middlebury College in 2019 with a Computer Science degree and Political Philosophy minor. During my four years at Middlebury I captained the <a href="http://sites.middlebury.edu/ultimate/2018/06/18/middlebury-guy-pranksters-2018-season-recap/" target="_blank">Men's Ultimate Frisbee Team</a>, participated in our computer science club, MiddleEndian, and tutored CS students.</p>
 
           <p>I'm interested in technology, especially in products that help people live better. I am particularly curious about security, blockchain, biotech, and renewable energy, although I'm always ready to learn new things. I'm a fan of the <a href="https://www.dreamsongs.com/RiseOfWorseIsBetter.html" target="_"> Worse Is Better</a> UNIX philosophy and a lover of minimalism.</p>
 
