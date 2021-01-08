@@ -13,8 +13,9 @@ import {
 import Projects from './components/Projects';
 import Links from './components/Links';
 import Home from './components/Home';
+import Crypto from './components/Crypto';
 // import Thoughts from './components/Thoughts';
-import Books from './components/Books';
+//import Books from './components/Books';
 //import Footer from './components/Footer';
 
 class App extends Component {
@@ -25,15 +26,22 @@ class App extends Component {
           <Navbar color="light" light expand="md">
             <NavbarBrand href="/">Connor Hanify</NavbarBrand>
               <Nav className="ml-auto" navbar>
+              
                 <NavItem>
                   <NavLink href="/about">About</NavLink>
                 </NavItem>
+
                 <NavItem>
                   <NavLink href="/projects">Projects</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="/Links">Links</NavLink>
                 </NavItem>
+
+                <NavItem>
+                  <NavLink href="/Crypto">Crypto</NavLink>
+                </NavItem>
+
                 {/* <NavItem>
                   <NavLink href="/Books">Books</NavLink>
                 </NavItem> */}
@@ -48,6 +56,7 @@ class App extends Component {
           <Route path="/about" component={Home}/>
           <Route path="/projects" component={Projects}/>
           <Route path="/links" component={Links}/>
+          <Route path="/Crypto" component={Crypto}/>
           {/* <Route path="/books" component={Books}/> */}
           {/* <Route path="/Thoughts" component={Thoughts}/> */}
         </div>
