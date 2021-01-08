@@ -5,7 +5,6 @@ This site is designed to display relevant information about me and to display a 
 # TODO
 
 * Use styled components
-
 * Lint code
 * Write up FreeBSD installation guide, publish on Github and link to site
 * Interview Prep problems / Data structures examples
