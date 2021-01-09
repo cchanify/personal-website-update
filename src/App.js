@@ -27,19 +27,19 @@ class App extends Component {
             <NavbarBrand href="/">Connor Hanify</NavbarBrand>
               <Nav className="ml-auto" navbar>
               
-                <NavItem>
+                {/* <NavItem>
                   <NavLink href="/about">About</NavLink>
-                </NavItem>
+                </NavItem> */}
 
                 <NavItem>
                   <NavLink href="/projects">Projects</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/Links">Links</NavLink>
+                  <NavLink href="/links">Links</NavLink>
                 </NavItem>
 
                 <NavItem>
-                  <NavLink href="/Crypto">Crypto</NavLink>
+                  <NavLink href="/crypto">Crypto</NavLink>
                 </NavItem>
 
                 {/* <NavItem>
@@ -53,10 +53,10 @@ class App extends Component {
           </Navbar>
 
           <Route exact path="/" component={Home}/>
-          <Route path="/about" component={Home}/>
+          {/* <Route path="/about" component={Home}/> */}
           <Route path="/projects" component={Projects}/>
           <Route path="/links" component={Links}/>
-          <Route path="/Crypto" component={Crypto}/>
+          <Route path="/crypto" component={Crypto}/>
           {/* <Route path="/books" component={Books}/> */}
           {/* <Route path="/Thoughts" component={Thoughts}/> */}
         </div>
